@@ -1,7 +1,7 @@
 {
   "name": "lets-cook",
   "version": "0.0.0",
-  "description": "Small description for lets-cook goes here",
+  "description": "Let's cook is your chef companion. Plan your weekly meals and know what to buy and how to cook the meals you want.",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -12,11 +12,11 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/san650/lets-cook.git",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.5.0"
   },
-  "author": "",
+  "author": "Santiago Ferreira <san650@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
