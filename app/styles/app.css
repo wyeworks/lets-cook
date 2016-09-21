@@ -1,0 +1,22 @@
+/* global */
+html,
+body,
+body > .ember-view {
+  height: 100%;
+}
+
+/* .empty-backlog */
+
+.backlog-empty {
+  height: 100%;
+  padding: 10rem 0;
+}
+
+.backlog-empty--message {
+  text-align: center;
+}
+
+.backlog-empty--link {
+  text-align: center;
+  padding: 1rem 0;
+}

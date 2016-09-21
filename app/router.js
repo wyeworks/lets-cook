@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('backlog', { path: '/' }, function() {
+    this.route('empty');
+  });
+  this.route('search');
 });
 
 export default Router;
