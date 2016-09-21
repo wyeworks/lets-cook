@@ -24,7 +24,39 @@ $ ember test --server
 
 ### Deploying
 
-TBA
+We're using pagefronthq.com to host the application. You can access the application here https://lets-cook.pagefrontapp.com/
+
+#### First time configuration
+
+If it's the first time you're deploying the application, you'll need to create a configuration file `.env.deploy.production` with your pagefront key.
+
+```
+PAGEFRONT_KEY=0123456789
+```
+
+#### Deploy to production
+
+```
+$ ember deploy production
+```
+
+and then visit https://lets-cook.pagefrontapp.com/
+
+#### Deploy to staging
+
+```
+$ ember deploy staging
+```
+
+and then visit https://lets-cook.staging.pagefrontapp.com/
+
+#### Deploy to development
+
+```
+$ ember deploy development
+```
+
+and then visit https://lets-cook.development.pagefrontapp.com/
 
 ## License
 
