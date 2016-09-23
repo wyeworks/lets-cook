@@ -7,7 +7,7 @@ Let's cook is your chef companion. Plan your weekly meals and know what to buy a
 ### Installation
 
 ```sh
-$ git clone https://github.com/san650/lets-cook.git
+$ git clone https://github.com/wyeworks/lets-cook.git
 $ cd lets-cook
 $ npm install
 $ bower install
