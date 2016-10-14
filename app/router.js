@@ -10,7 +10,9 @@ Router.map(function() {
   this.route('backlog', { path: '/' }, function() {
     this.route('empty');
   });
-  this.route('search');
+  this.route('search', function() {
+    this.route('results', { path: ':term' });
+  });
 });
 
 export default Router;
