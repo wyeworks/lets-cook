@@ -1,17 +1,10 @@
 <div class="container search">
   <div class="row">
     <div class="col-xs-12">
-      {{#each recipes as |recipe|}}
-        <div class="media recipe">
-          <div class="media-left">
-            <img class="media-object" src={{{recipe.imageUrl}}} alt={{recipe.title}}>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">{{recipe.title}}</h4>
-            Lorem ipsum dolor sit amet bla bla bla
-          </div>
-        </div>
-      {{/each}}
+      <form {{action 'search' term on="submit"}} class="search--form">
+        {{input value=term placeholder="Search recipes..." class="search--input"}}
+      </form>
     </div>
   </div>
+  {{outlet}}
 </div>

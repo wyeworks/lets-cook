@@ -18,6 +18,6 @@ test('shows an empty backlog message and a link to search recipes when entering 
   page.clickOn('Add a recipe');
 
   andThen(function() {
-    assert.equal(currentPath(), 'search');
+    assert.equal(currentPath(), 'search.index');
   });
 });
