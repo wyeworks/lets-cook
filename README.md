@@ -57,6 +57,9 @@ $ ember deploy development
 ```
 
 and then visit https://lets-cook.development.pagefrontapp.com/
+## Credits
+
+- App icon is a modification of [chef](https://thenounproject.com/Madebyelvis/collection/chef-food/?i=73620) by [Madebyelvis](https://thenounproject.com/Madebyelvis/) from the [Noun Project](https://thenounproject.com/), used under [cc by-3.0 us](https://creativecommons.org/licenses/by/3.0/us/)
 
 ## License
 
