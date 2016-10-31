@@ -1,0 +1,15 @@
+
+function recipe(title, slug) {
+  return {
+    id: ++id,
+    slug: slug,
+    title: title,
+    imageUrl: '/data/images/' + slug + '.jpg'
+  };
+}
+
+var RECIPES = [
+  recipe("World's Best Lasagna",'worlds-best-lasagna'),
+  recipe('Greek Island Chicken Shish Kebabs', 'greek-island-chicken-shish-kebabs'),
+  recipe('Orange and Milk-Braised Pork Carnitas', 'orange-and-milk-braised-pork-carnitas')
+];
