@@ -12,7 +12,7 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "https://github.com/san650/lets-cook.git",
+  "repository": "https://github.com/wyeworks/lets-cook.git",
   "engines": {
     "node": ">= 4.5.0"
   },
