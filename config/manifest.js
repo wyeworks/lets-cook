@@ -8,7 +8,7 @@ module.exports = function(/* environment, appConfig */) {
     description: "An app for organizing your weekly menu and groceries list.",
     start_url: "/",
     display: "standalone",
-    background_color: "#fff",
+    background_color: "#ffa105",
     theme_color: "#ffa105",
 
     icons: [
