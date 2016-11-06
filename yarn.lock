@@ -2065,9 +2065,9 @@ ember-try@^0.2.2:
     semver "^5.1.0"
     sync-exec "^0.6.2"
 
-ember-web-app@1.0.0-alpha.3:
-  version "1.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/ember-web-app/-/ember-web-app-1.0.0-alpha.3.tgz#7f68763bec381a99f4d87aeb8ad689b1853bfc1a"
+ember-web-app@1.0.0-alpha.5:
+  version "1.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/ember-web-app/-/ember-web-app-1.0.0-alpha.5.tgz#6a26a50d6e274eecc5e27d6c8df6834340eee8e3"
   dependencies:
     broccoli-asset-rev "^2.5.0"
     broccoli-plugin "^1.2.2"
