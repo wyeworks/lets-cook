@@ -2,6 +2,7 @@ function recipe(title, slug) {
   return {
     slug: slug,
     title: title,
+    description: 'Lorem ipsum dolor sit amet bla bla bla',
     imageUrl: '/data/images/' + slug.replace(/-\d*$/,'') + '.jpg'
   };
 }

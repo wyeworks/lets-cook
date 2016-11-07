@@ -73,3 +73,7 @@ body > .ember-view {
   background-color: rgba(0,0,0,.3);
   overflow: hidden;
 }
+
+.search-result--description {
+  overflow-wrap: break-word;
+}

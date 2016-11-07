@@ -6,14 +6,14 @@ export default Factory.extend({
   },
 
   title() {
-    return faker.lorem.words(4);
+    return faker.lorem.sentence(4);
   },
 
   description() {
-    return faker.lorem.words(10);
+    return faker.lorem.sentence(10);
   },
 
   imageUrl(i) {
-    return faker.image.food('300', '300') + `?${i}`;
+    return faker.image.food('300', '300') + `?${i%8}`;
   }
 });
