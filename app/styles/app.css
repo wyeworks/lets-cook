@@ -5,6 +5,10 @@ body > .ember-view {
   height: 100%;
 }
 
+.ember-application {
+  padding-top: 10px;
+}
+
 /* .empty-backlog */
 
 .backlog-empty {
@@ -19,4 +23,53 @@ body > .ember-view {
 .backlog-empty--link {
   text-align: center;
   padding: 1rem 0;
+}
+
+/* .search-results */
+.search-result--list {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.search-result--item {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .search-result--item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .search-result--item {
+    width: 33%;
+  }
+}
+
+.search-result--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search-result--body {
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  padding: 0 8px;
+  color: #fff;
+  background-color: rgba(0,0,0,.3);
+  overflow: hidden;
 }
