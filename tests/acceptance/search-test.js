@@ -16,10 +16,10 @@ const page = _.create('/search', {
   },
 
   recipes: _.collection({
-    itemScope: '.recipe',
+    itemScope: '.search-result--item',
 
     item: {
-      name: _.text('.media-heading')
+      name: _.text('.search-result--heading')
     }
   })
 });
