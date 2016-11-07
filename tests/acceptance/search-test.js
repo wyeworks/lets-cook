@@ -2,7 +2,11 @@ import { test } from 'qunit';
 import moduleForAcceptance from 'lets-cook/tests/helpers/module-for-acceptance';
 import _ from 'ember-cli-page-object';
 
-moduleForAcceptance('Acceptance | search');
+moduleForAcceptance('Acceptance | search', {
+  beforeEach() {
+    server.loadFixtures();
+  }
+});
 
 const page = _.create('/search', {
   fillIn: _.fillable('.search--input'),
