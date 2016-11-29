@@ -1,7 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  beforeModel() {
-    this.replaceWith('backlog.empty');
+  model() {
+    return this.store.findAll('backlog');
+  },
+
+  afterModel(model) {
+    if (model.get('length') === 0) {
+      this.replaceWith('backlog.empty');
+    }
   }
 });
