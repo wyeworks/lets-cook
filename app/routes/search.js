@@ -8,6 +8,11 @@ export default Ember.Route.extend({
       } else {
         this.transitionTo('search.index');
       }
+    },
+
+    addToBacklog(recipe) {
+      recipe.save();
+      this.transitionTo('backlog');
     }
   }
 });

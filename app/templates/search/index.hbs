@@ -9,6 +9,7 @@
             <p class="search-result--description">
               {{recipe.description}}
             </p>
+            <button {{action 'addToBacklog' recipe}}>Add</button>
           </div>
         </div>
       {{/each}}
