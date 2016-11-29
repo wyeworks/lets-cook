@@ -11,7 +11,17 @@ export default Ember.Route.extend({
     },
 
     addToBacklog(recipe) {
-      recipe.save();
+      let backlog = this.store.findAll('backlog');
+
+      if (backlog.get('length') === 0) {
+        backlog = this.store.createRecord('backlog');
+      } else {
+        backlog = backlog.get('firstObject');
+      }
+
+      backlog.get('recipes').pushObject(recipe);
+      backlog.save();
+
       this.transitionTo('backlog');
     }
   }
