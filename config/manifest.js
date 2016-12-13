@@ -21,17 +21,16 @@ module.exports = function(/* environment, appConfig */) {
         src: "/images/icons/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png"
+      },
+      {
+        src: "/images/icons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+        targets: ['apple']
       }
     ],
 
     apple: {
-      icons: [
-        {
-          src: "/images/icons/apple-touch-icon.png",
-          sizes: "180x180",
-          type: "image/png"
-        }
-      ],
       statusBarStyle: 'black-translucent'
     }
   }
