@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="search-result--list">
+      {{#each recipes as |recipe|}}
+        {{search-item recipe on-select=(route-action 'showRecipe')}}
+      {{/each}}
+    </div>
+  </div>
+</div>
