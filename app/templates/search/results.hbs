@@ -2,15 +2,7 @@
   <div class="col-xs-12">
     <div class="search-result--list">
       {{#each recipes as |recipe|}}
-        <div class="search-result--item recipe">
-          <img class="search-result--image" src={{{recipe.imageUrl}}} alt={{recipe.title}}>
-          <div class="search-result--body">
-            <h4 class="search-result--heading">{{recipe.title}}</h4>
-            <p class="search-result--description">
-              {{recipe.description}}
-            </p>
-          </div>
-        </div>
+        {{search-item recipe on-select=(route-action 'addToBacklog')}}
       {{/each}}
     </div>
   </div>

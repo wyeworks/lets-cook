@@ -40,6 +40,7 @@ body > .ember-view {
   width: 100%;
   padding: 5px;
   height: 150px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
