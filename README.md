@@ -1,6 +1,10 @@
-# Lets-cook
+<img src="logo.png" alt="Let's Cook logo" align="left">
 
-Let's cook is your chef companion. Plan your weekly meals and know what to buy and how to cook the meals you want.
+# Let's Cook
+
+**Let's Cook** is your chef companion. Plan your weekly meals and know what to buy and how to cook the meals you want.
+
+
 
 ## Development
 
@@ -57,12 +61,13 @@ $ ember deploy development
 ```
 
 and then visit https://lets-cook.development.pagefrontapp.com/
+
 ## Credits
 
 - App icon is a modification of [chef](https://thenounproject.com/Madebyelvis/collection/chef-food/?i=73620) by [Madebyelvis](https://thenounproject.com/Madebyelvis/) from the [Noun Project](https://thenounproject.com/), used under [cc by-3.0 us](https://creativecommons.org/licenses/by/3.0/us/)
 
 ## License
 
-lets-cook is licensed under the MIT license.
+Let's Cook is licensed under the MIT license.
 
 See [LICENSE](./LICENSE.md) for the full license text.
